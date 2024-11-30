@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <title>Home - Wedding Catering</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Wedding Catering Services</h1>
+    </header>
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'services' %}">Services</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </nav>
+    <div class="container">
+        <h2>Celebrate Your Special Day With Us</h2>
+        <p>We provide the best catering services for your wedding needs.</p>
+    </div>
+</body>
+</html>
